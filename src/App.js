@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Todos from './Todos'
+import AddTodo from './AddTodo'
 
 class App extends Component {
   state = {
@@ -23,6 +24,7 @@ class App extends Component {
         <h1 className="center blue-text">Travel Bag</h1>
         <h6 className="center green-text">Click on the list items to check then off of your packing list</h6>
         <Todos todos={ this.state.todos } deleteTodo={this.deleteTodo}/>
+        <AddTodo />
       </div>
     );
   }
