@@ -28,10 +28,10 @@ class App extends Component {
   render() {
     return (
       <div className="todo-app container">
-        <h1 className="center blue-text">Travel Bag</h1>
-        <h6 className="center green-text">Click on the list items to check them off of your packing list</h6>
-        <Todos todos={ this.state.todos } deleteTodo={this.deleteTodo}/>
-        <AddTodo addTodo={this.addTodo}/>
+        <h1 className="Header center white-text">Travel Bag</h1>
+        <h6 className="Instructions center white-text">Click on the list items to check them off of your packing list</h6>
+        <Todos className="list-item" todos={ this.state.todos } deleteTodo={this.deleteTodo}/>
+        <AddTodo className="list-item" addTodo={this.addTodo}/>
       </div>
     );
   }
