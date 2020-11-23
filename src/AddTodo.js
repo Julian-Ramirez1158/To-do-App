@@ -23,8 +23,8 @@ class AddTodo extends Component {
             <div>
                 <form className="form" onSubmit={this.handleSubmit}>
                     <label className="Label white-text">What do you need to pack? :</label>
-                    <input className="white-text" type="text" onChange={this.handleChange} value={this.state.content}/>
-                    <button className="btn waves-effect waves-light" type="submit">Submit</button>
+                    <input className="white-text" type="text" onChange={this.handleChange} value={this.state.content} required/>
+                    <button className="btn waves-effect waves-light z-depth-5" type="submit">Submit</button>
                 </form>
             </div>
         )
