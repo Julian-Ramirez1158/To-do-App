@@ -8,13 +8,15 @@ const Todos = ({todos, deleteTodo}) => {
         todos.map(todo => {
             return (
                 <div className="collection-item" key={todo.id}>
-                    <span>{todo.content}</span>
-                    <img src={checkCircle} onClick={() => {deleteTodo(todo.id)}} alt="Check packed item" className="check-item"></img>
+                    <span className="list-item" >{todo.content}</span>
+                    <img src={checkCircle} onClick={() => {deleteTodo(todo.id)}} alt="Check packed item" className="check-icon"></img>
                 </div>
             )
         })
     ) : (
-        <p className="center collection-item">You have nothing left to pack, yay!</p>
+        <div className="collection-item complete">
+            <span id="complete" className="list-item">You have nothing left to pack, yay!</span>
+        </div>
     )
     return (
         <div className="todos collection">
