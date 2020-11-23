@@ -21,9 +21,9 @@ class AddTodo extends Component {
     render(){
         return (
             <div>
-                <form onSubmit={this.handleSubmit}>
-                    <label>Add new item:</label>
-                    <input type="text" onChange={this.handleChange} value={this.state.content}/>
+                <form className="form" onSubmit={this.handleSubmit}>
+                    <label className="Label white-text">What do you need to pack? :</label>
+                    <input className="white-text" type="text" onChange={this.handleChange} value={this.state.content}/>
                     <button className="btn waves-effect waves-light" type="submit">Submit</button>
                 </form>
             </div>
