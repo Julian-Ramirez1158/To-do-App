@@ -1,4 +1,6 @@
 import React from 'react'
+import checkCircle from './check-circle-regular.svg'
+
 
 const Todos = ({todos, deleteTodo}) => {
 
@@ -6,7 +8,8 @@ const Todos = ({todos, deleteTodo}) => {
         todos.map(todo => {
             return (
                 <div className="collection-item" key={todo.id}>
-                    <span onClick={() => {deleteTodo(todo.id)}}>{todo.content}</span>
+                    <span>{todo.content}</span>
+                    <img src={checkCircle} onClick={() => {deleteTodo(todo.id)}} alt="Check packed item" className="check-item"></img>
                 </div>
             )
         })
