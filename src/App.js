@@ -29,9 +29,9 @@ class App extends Component {
     return (
       <div className="todo-app container">
         <h1 className="Header center white-text">Travel Bag</h1>
-        <h6 className="Instructions center white-text">Click on the list items to check them off of your packing list</h6>
-        <Todos className="list-item" todos={ this.state.todos } deleteTodo={this.deleteTodo}/>
-        <AddTodo className="list-item" addTodo={this.addTodo}/>
+        <h6 className="Instructions center white-text">Add items you need to pack, and check them off as you go!</h6>
+        <Todos todos={ this.state.todos } deleteTodo={this.deleteTodo}/>
+        <AddTodo addTodo={this.addTodo}/>
       </div>
     );
   }
