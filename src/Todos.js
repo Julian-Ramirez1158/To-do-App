@@ -11,7 +11,7 @@ const Todos = ({todos, deleteTodo}) => {
             )
         })
     ) : (
-        <p className="center">You have nothing left to pack, yay!</p>
+        <p className="center collection-item">You have nothing left to pack, yay!</p>
     )
     return (
         <div className="todos collection">
