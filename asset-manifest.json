@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Travel-Bag/static/css/main.18dbc711.chunk.css",
+    "main.js": "/Travel-Bag/static/js/main.83ded1fe.chunk.js",
+    "main.js.map": "/Travel-Bag/static/js/main.83ded1fe.chunk.js.map",
+    "runtime-main.js": "/Travel-Bag/static/js/runtime-main.11661f7f.js",
+    "runtime-main.js.map": "/Travel-Bag/static/js/runtime-main.11661f7f.js.map",
+    "static/js/2.faef6171.chunk.js": "/Travel-Bag/static/js/2.faef6171.chunk.js",
+    "static/js/2.faef6171.chunk.js.map": "/Travel-Bag/static/js/2.faef6171.chunk.js.map",
+    "static/js/3.a01b7a42.chunk.js": "/Travel-Bag/static/js/3.a01b7a42.chunk.js",
+    "static/js/3.a01b7a42.chunk.js.map": "/Travel-Bag/static/js/3.a01b7a42.chunk.js.map",
+    "index.html": "/Travel-Bag/index.html",
+    "static/css/main.18dbc711.chunk.css.map": "/Travel-Bag/static/css/main.18dbc711.chunk.css.map",
+    "static/js/2.faef6171.chunk.js.LICENSE.txt": "/Travel-Bag/static/js/2.faef6171.chunk.js.LICENSE.txt",
+    "static/media/check-circle-regular.f1ff1dd8.svg": "/Travel-Bag/static/media/check-circle-regular.f1ff1dd8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11661f7f.js",
+    "static/js/2.faef6171.chunk.js",
+    "static/css/main.18dbc711.chunk.css",
+    "static/js/main.83ded1fe.chunk.js"
+  ]
+}
