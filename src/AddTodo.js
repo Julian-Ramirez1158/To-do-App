@@ -7,7 +7,7 @@ class AddTodo extends Component {
     }
     handleChange = (e) => {
         this.setState({
-            content: e.target.value
+            content: e.target.value.trim()
         })
     }
     handleSubmit = (e) => {
